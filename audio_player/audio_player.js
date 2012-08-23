@@ -30,7 +30,7 @@ function InlinePlayer() {
 
 	this.config = {
 		playNext: true, // stop after one sound, or play through list until end
-		autoPlay: true  // start playing the first sound right away
+		autoPlay: false  // start playing the first sound right away
 	};
 	console.log('Config set.');
 
